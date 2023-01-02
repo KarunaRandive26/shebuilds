@@ -115,7 +115,7 @@
   text-shadow: 2px 2px black;
 
 }
-.signlink{
+.signlink, .loginlink{
   font-weight: bold;
   text-shadow: white;
   padding-left: 5px;
