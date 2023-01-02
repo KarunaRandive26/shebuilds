@@ -1,17 +1,17 @@
 
 const AboutData = [
     {
-        imgsrc: "/images/loginbg.jpg",
+        imgsrc: "/images/buynsell.jpg",
         title:"Buy & Sell",
         target:"/contact"
     },
     {
-        imgsrc: "../images/loginbg.jpg",
+        imgsrc: "../images/blog.jpg",
         title:"Blogs",
         target:"/contact"
     },
     {
-        imgsrc: "../images/loginbg.jpg",
+        imgsrc: "../images/schemes.jpg",
         title:"Government Schemes",
         target:"/contact"
     }
