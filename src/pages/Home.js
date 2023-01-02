@@ -1,7 +1,7 @@
 import React from "react";
-import TagOne from "./TagOne";
+import TagOne from "../components/TagOne";
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
-import About from "./About";
+import About from "../components/About";
 const Home = () => {
   return (
     <>

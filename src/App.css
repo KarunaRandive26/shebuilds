@@ -98,6 +98,9 @@
     width: 60vw;  
   font-size: 4vw;
   }
+  .service{
+    flex-wrap: wrap;
+  }
 }
 .page{
   padding-top: 5vh;
@@ -141,4 +144,11 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+.service{
+  display: flex;
+  padding: 5vh 5vw; 
+}
+.card{
+  margin: 4px;
 }
