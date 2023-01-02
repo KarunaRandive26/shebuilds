@@ -146,9 +146,19 @@
   justify-content: center;
 }
 .service{
+  align-items: center;
   display: flex;
-  padding: 5vh 5vw; 
+  justify-content: center;
+  padding: auto 5vw; 
 }
 .card{
-  margin: 4px;
+  border: none;
+  border-radius: 10px;
+  height: 25vw;
+  width: 25vw;
+  margin: 1vw;
+}
+.card:hover{
+  transition: 1s;
+  transform: scale(1.1);
 }

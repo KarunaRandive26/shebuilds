@@ -5,8 +5,9 @@ const AboutCard = (props) => {
     return (
         <>
             <div className="card">
-                <img className="card-img-top" src={props.imgsrc} />
-                <div className="card-body">
+                <div className="card-body" style={{
+                    backgroundImage: `url(${props.imgsrc})`, backgroundSize:'cover'
+                }}>
                     <NavLink to={props.target} className="titlename">{props.title}</NavLink>
                 </div>
             </div>
