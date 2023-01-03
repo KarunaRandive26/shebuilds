@@ -192,6 +192,8 @@
 .profile-pic{
   width:25vw;
   border-radius: 100%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 6px 0 rgb(43, 43, 43);
 }
 .user-info{
   width: 75vw;
