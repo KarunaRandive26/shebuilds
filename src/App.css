@@ -95,6 +95,11 @@
   .card{
     width: 60%;
   }
+}
+@media(max-width:600px){
+  .personal-info{
+    display: block;
+  }
 
 }
 .page{
@@ -182,14 +187,26 @@
   height: 7vh;
   width: 7vh;
 }
-.user{
-  padding: 10px;
-}
+
 .personal-info{
+  background-color: rgb(210, 171, 210);
   padding: 5vw 5vw;
   display: flex;
+  align-items: center;
 }
 .profile-pic{
   width:25vw;
   border-radius: 100%;
+}
+.user-info{
+  width: 75vw;
+  margin: 10px;
+}
+.field{
+  color: rgb(253, 239, 255);
+  font-weight: bold;
+}
+tr{
+  font-size: 3vw;
+  color: rgb(255, 255, 255);
 }

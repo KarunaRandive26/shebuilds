@@ -16,4 +16,5 @@ const AboutData = [
         target:"/contact"
     }
 ]
- export default AboutData; 
+export default AboutData; 
+
