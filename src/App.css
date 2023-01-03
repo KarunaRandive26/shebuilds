@@ -131,8 +131,8 @@
 .about{
   border-radius: 5px;
   position: relative;
-  top: -3em;
-  margin: 5vh 5vw;
+  top: -4vh;
+  margin: 0 5vw;
   background-color: rgb(255, 255, 255);
   align-items: center;
   justify-content: center;
@@ -140,7 +140,6 @@
   padding: 5vh 5vw; 
 }
 .about-head{
-  
   src:url(./fonts/BebasNeue-Regular.ttf);
 }
 .service{

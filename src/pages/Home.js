@@ -2,6 +2,7 @@ import React from "react";
 import TagOne from "../components/TagOne";
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import About from "../components/About";
+import Teamboard from "../components/Teamboard";
 const Home = () => {
   return (
     <>
@@ -19,7 +20,8 @@ const Home = () => {
     </div>
     <div className="about">
         <About/>
-      </div>
+    </div>
+    <Teamboard/>
     </>
   );
 };
