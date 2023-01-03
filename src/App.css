@@ -13,25 +13,17 @@
 }
 .karuna{
   font-size: 20px;
-  background-color: rgb(61, 12, 65);
-  opacity: 0.6;
+  background-color: rgba(61, 12, 65, 0.474);
   box-shadow: 2px 2px rgb(255, 255, 255);
 }
-
-.nav-item{
-  padding: 0.3vh;
-}
-
 .nav-link{
   color:rgb(208, 208, 208)  
 }
-
 .menu_active{
   color: white;
   border-color: #ffffff00;
   border-bottom: 2px solid;
 }
-
 .tag{
   color:white;
   background-image: url('./images/woman.jpeg');
@@ -45,7 +37,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .info{
   text-align: start;
 }
@@ -92,7 +83,6 @@
   opacity: 0.7;
   margin-top: 2vh;
 }
-
 @media(max-width:850px){
   .main-box{
     width: 60vw;  
@@ -105,14 +95,13 @@
   .card{
     width: 60%;
   }
-}
 
+}
 .page{
   padding-top: 5vh;
   width: 100%;
   display: flex;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 .signlink{
   text-decoration: none;
@@ -121,13 +110,12 @@
 .new-sign{
   display: flex;
   text-shadow: 2px 2px black;
-
 }
 .signlink, .loginlink{
   font-weight: bold;
   text-shadow: white;
   padding-left: 5px;
-  color: rgb(255, 255, 113)
+  color: rgb(255, 255, 113);
 }
 .login-btn{
   padding: 5px 20px;
@@ -146,7 +134,6 @@
   top: -3em;
   margin: 5vh 5vw;
   background-color: rgb(255, 255, 255);
-  
   align-items: center;
   justify-content: center;
   box-shadow: 0 1px 6px 0 rgb(121, 121, 121);
@@ -159,16 +146,14 @@
 .service{
   align-items: center;
   display: flex;
-  justify-content: start;
-  
+  justify-content: flex-start;  
 }
 .card{
   width: 15rem;
   height: 15rem;
   border: none;
   border-radius: 10px;
-  margin: 10px 20px 10px 0px;
-  
+  margin: 10px 20px 10px 0px;  
 }
 .card-body{
   text-align: center;
@@ -186,4 +171,25 @@
 .card:hover{
   transition: 1s;
   transform: scale(1.1);
+}
+.profile{
+  background-image: url(../public/images/profile.jpeg);
+  background-size: cover;
+  background-color: #ffffff;
+  background-blend-mode: multiply;
+  opacity: 10; 
+  border-radius: 7vh;
+  height: 7vh;
+  width: 7vh;
+}
+.user{
+  padding: 10px;
+}
+.personal-info{
+  padding: 5vw 5vw;
+  display: flex;
+}
+.profile-pic{
+  width:25vw;
+  border-radius: 100%;
 }

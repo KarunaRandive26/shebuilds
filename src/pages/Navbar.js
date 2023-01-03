@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+    const profile = "../images/profile.jpeg";
     return (
         <nav className="karuna navbar navbar-expand-lg navbar-dark shadow-10-strong">
             <div className="container">
@@ -11,21 +12,22 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
+                        <li className="nav-item my-auto">
                             <NavLink exact activeClassName="menu_active" className="nav-link active " aria-current="page" to="/">Home</NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item my-auto">
                             <NavLink exact activeClassName="menu_active" className="nav-link" to="/contact">Contact</NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item my-auto">
                             <NavLink exact activeClassName="menu_active" className="nav-link" to="/login">Login</NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item my-auto">
                             <NavLink exact activeClassName="menu_active" className="nav-link" to="/signup">Sign up</NavLink>
                         </li>
+                        <li className="nav-item my-auto">
+                            <NavLink className="nav-link" to="/dashboard"><div className="profile"></div></NavLink>
+                        </li>
                     </ul>
-
-
                 </div>
             </div>
         </nav>
