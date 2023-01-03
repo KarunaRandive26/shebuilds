@@ -96,12 +96,7 @@
     width: 60%;
   }
 }
-@media(max-width:600px){
-  .personal-info{
-    display: block;
-  }
 
-}
 .page{
   padding-top: 5vh;
   width: 100%;
