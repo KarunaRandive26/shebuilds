@@ -83,6 +83,16 @@
   opacity: 0.7;
   margin-top: 2vh;
 }
+@media(max-width:1400px){
+  .itemcard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  
+}
 @media(max-width:850px){
   .main-box{
     width: 60vw;  
@@ -171,7 +181,13 @@
   transition: 1s;
   transform: scale(1.1);
 }
+
+/*dashpage*/
+.whole{
+  text-align: center;
+}
 .profile{
+  
   background-image: url(../public/images/profile.jpeg);
   background-size: cover;
   background-color: #ffffff;
@@ -182,27 +198,155 @@
   width: 7vh;
 }
 
-.personal-info{
-  background-color: rgb(210, 171, 210);
-  padding: 5vw 5vw;
+.user-profile{
+  width: 90vw;
+  justify-content: center;
   display: flex;
   align-items: center;
 }
-.profile-pic{
-  width:25vw;
-  border-radius: 100%;
-  border: 2px solid #ffffff;
-  box-shadow: 0 1px 6px 0 rgb(43, 43, 43);
+.pic{
+  border-radius: 25vh;
+  height: 25vh;
+  width: 25vh;
+  padding: 10px
 }
-.user-info{
-  width: 75vw;
-  margin: 10px;
+
+/*memberboard*/
+.headline{
+  color: rgb(165, 165, 165);
+  padding: 5% 0;
+  background-color: rgb(236, 250, 255);
+  text-align: center;
+}
+.teamcard{
+  padding: 2vw 10vw;
+}
+.itemcard{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 2px solid rgb(203, 203, 203);
+}
+.item-1{
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+  padding: 10px; 
+   
+}
+.name{
+  font-size:3.5vh;
+}
+.role{
+  font-size: 3vh;
+}
+
+
+/*dashpage*/
+.pro-line{
+  color: rgb(112, 112, 112);
+  font-size: 40px;
+  font-weight: bold;
+}
+.profilecard{
+  width: 80%;
+}
+.profile-template{
+  padding: 20px;
+  background-color: rgb(236, 236, 236);
+}
+.edit{
+  color: white;
+  background-color: rgb(15, 148, 15);
+}
+.profile-pic{
+  background-image: url(../public/images/profile.jpeg);
+  background-size: cover;
+border-radius: 15vw;
+  height:15vw;
+  width: 15vw;
+}
+.user-profile{
+  padding: 20px 0;
+}
+.page-1{
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  font: 300;
+}
+.prof{
+  padding: 10px;
+}
+.profile-photo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fieldcard{
+  padding: 10px;
+}
+.Pro-name{
+  font-size: 3vw;
+}
+.Pro-mail{
+  font-size: 3vw;
 }
 .field{
-  color: rgb(74, 74, 74);
-  font-weight: 400;
+  color: grey;
+  font-size: 15px;
 }
-tr{
-  font-size: 3vw;
-  color: rgb(255, 255, 255);
+.data{
+  font-size: 25px;
 }
+
+
+/*sidebar*/
+main{
+  padding: 0;
+}
+.container-1{
+  display:flex;
+}
+.sidebar{
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+div.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+/*profile*/
