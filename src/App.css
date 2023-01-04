@@ -252,7 +252,7 @@
   width: 80%;
 }
 .profile-template{
-  padding: 20px;
+  padding: 2vw;
   background-color: rgb(236, 236, 236);
 }
 .edit{
@@ -262,15 +262,16 @@
 .profile-pic{
   background-image: url(../public/images/profile.jpeg);
   background-size: cover;
-border-radius: 15vw;
-  height:15vw;
-  width: 15vw;
+border-radius: 8vmax;
+  height:8vmax;
+  width: 8vmax;
 }
 .user-profile{
   padding: 20px 0;
 }
+
 .page-1{
-  width: 90%;
+  width: 80%;
   background-color: rgb(255, 255, 255);
   padding: 20px;
   font: 300;
@@ -288,17 +289,17 @@ border-radius: 15vw;
   padding: 10px;
 }
 .Pro-name{
-  font-size: 3vw;
+  font-size: 2ex;
 }
 .Pro-mail{
-  font-size: 3vw;
+  font-size: 1.5ex;
 }
 .field{
   color: grey;
   font-size: 15px;
 }
 .data{
-  font-size: 25px;
+  font-size: 2ex;
 }
 
 

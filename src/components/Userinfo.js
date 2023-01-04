@@ -119,8 +119,6 @@ const Userinfo = () => {
                                         <label for="inputZip" class="form-label">Zip</label>
                                         <input type="text" class="form-control" id="inputZip" />
                                     </div>
-
-
                                 </form>
                             </div>
                             <div class="modal-footer">
