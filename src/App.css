@@ -352,3 +352,9 @@ div.active{
 }
 
 /*dashboard*/
+.flex-column{
+  padding-top: 10px;
+}
+.event{
+  background-color: rgb(255, 255, 255);
+}

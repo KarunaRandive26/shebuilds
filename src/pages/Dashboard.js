@@ -8,25 +8,25 @@ import DashPage from "../components/DashPage";
 const Dashboard = () => {
     return (
         <>
-        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+        <Tab.Container defaultActiveKey="first">
         <Row>
           <Col>
-            <Nav variant="pills" className="flex-column">
-              <Nav.Item>
-                <Nav.Link eventKey="first">Tab 1</Nav.Link>
+            <Nav className="flex-column">
+              <Nav.Item className="event mx-auto">
+                <Nav.Link  eventKey="first">Profile</Nav.Link>
               </Nav.Item>
-              <Nav.Item>
-                <Nav.Link eventKey="second">Tab 2</Nav.Link>
+              <Nav.Item className="event mx-auto ">
+                <Nav.Link eventKey="second">Sales</Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
           <Col sm={10}>
-            <Tab.Content className="showtab">
+            <Tab.Content>
               <Tab.Pane eventKey="first">
                 <DashPage/>
               </Tab.Pane>
               <Tab.Pane eventKey="second">
-                =
+                
               </Tab.Pane>
             </Tab.Content>
           </Col>
