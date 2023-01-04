@@ -6,7 +6,8 @@ import Navbar from './pages/Navbar';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
-
+;.
+]6
 
 function App() {
   return (
