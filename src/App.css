@@ -363,11 +363,25 @@ div.active{
 
 
 /*buisness setup*/
+.buis{
+  background-color: rgb(241, 222, 239);
+  color: rgb(57, 57, 57);
+}
+
+.new{
+  background-color: rgb(197, 213, 222);
+}
 .setup{
   height: 35vh;
   width: 35vh;
-  background-color: #ffffff;
   margin: 10px;
+  padding:25% 0px;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px 0 rgb(137, 137, 137);
+}
+.setup:hover{
+  transition: 1s;
+  background-color: rgb(230, 230, 230);
 }
 .board-page{
   display: flex;

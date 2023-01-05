@@ -3,7 +3,8 @@ const SetBuis = () => {
     return (
       <>
         <div className="buis setup">
-            helo
+           <div className="create-icon mx-auto"><img className="buis-icon" src="../images/createbuis.png"></img></div>
+           <div className="cr-line">Business Name</div>
         </div>
       </>
     
