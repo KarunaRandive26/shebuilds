@@ -301,62 +301,17 @@ border-radius: 8vmax;
   font-size: 2ex;
 }
 
-
 /*sidebar*/
-main{
-  padding: 0;
-}
-.container-1{
-  display:flex;
-}
 .sidebar{
-    background: #000;
-    color: #fff;
-    height: 100vh;
-    width: 200px;
-    transition: all 0.5s;
+  background-color: rgb(17, 17, 17);
 }
-.top_section{
-    display: flex;
-    align-items:center;
-    padding:20px 15px;
-}
-.logo{
-    font-size: 30px;
-}
-.bars{
-    display: flex;
-    font-size: 25px;
-    margin-left: 50px;
-}
-.link{
-    display: flex;
-    color: #fff;
-    padding: 10px 15px;
-    gap: 15px;
-    transition: all 0.5s;
-}
-.link:hover{
-    background:lightskyblue;
-    color: #000;
-    transition: all 0.5s;
-}
-div.active{
-    background: lightskyblue;
-    color: #000;
-}
-.icon, .link_text{
-    font-size: 20px;
-}
-
-/*dashboard*/
 .flex-column{
+  height: 100vh;
   padding-top: 10px;
-  justify-content: center;
   text-align: center;
 }
-.event{
-  background-color: rgb(255, 255, 255);
+Nav-item.active{
+  background-color: white;
 }
 
 

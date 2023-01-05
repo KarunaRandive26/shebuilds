@@ -11,7 +11,7 @@ const Dashboard = () => {
         <>
         <Tab.Container defaultActiveKey="first">
         <Row>
-          <Col>
+          <Col className="sidebar">
             <Nav className="flex-column">
               <Nav.Item className="event mx-auto">
                 <Nav.Link  eventKey="first">Profile</Nav.Link>
