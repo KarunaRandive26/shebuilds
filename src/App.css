@@ -6,7 +6,6 @@
 .container{
   padding: 0 5vw;
 }
-
 .navbar-brand{
   color: #ffffff;
   font-size: 25px;
@@ -184,8 +183,7 @@
 .whole{
   text-align: center;
 }
-.profile{
-  
+.profile{  
   background-image: url(../public/images/profile.jpeg);
   background-size: cover;
   background-color: #ffffff;
@@ -195,7 +193,6 @@
   height: 7vh;
   width: 7vh;
 }
-
 .user-profile{
   width: 90vw;
   justify-content: center;
@@ -239,7 +236,6 @@
   font-size: 3vh;
 }
 
-
 /*dashpage*/
 .pro-line{
   color: rgb(112, 112, 112);
@@ -261,7 +257,7 @@
 .profile-pic{
   background-image: url(../public/images/profile.jpeg);
   background-size: cover;
-border-radius: 8vmax;
+  border-radius: 8vmax;
   height:8vmax;
   width: 8vmax;
 }
@@ -302,18 +298,13 @@ border-radius: 8vmax;
 }
 
 /*sidebar*/
-.sidebar{
-  background-color: rgb(17, 17, 17);
-}
 .flex-column{
-  height: 100vh;
   padding-top: 10px;
   text-align: center;
 }
 Nav-item.active{
   background-color: white;
 }
-
 
 /*buisness setup*/
 .buis{
@@ -376,12 +367,10 @@ Nav-item.active{
   padding: 10px;
   width: 90px;
 }
-
 .text{
   padding: 20px;
   text-align: center;
 }
-
 .box{
   box-shadow: 0 0.2em 0.5em rgb(55, 55, 55);
   width: 50%;
