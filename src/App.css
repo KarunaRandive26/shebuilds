@@ -113,15 +113,13 @@
   display: flex;
   justify-content: center;  
 }
-.signlink{
-  text-decoration: none;
-  color: white;
-}
+
 .new-sign{
   display: flex;
   text-shadow: 2px 2px black;
 }
 .signlink, .loginlink{
+  text-decoration: none;
   font-weight: bold;
   text-shadow: white;
   padding-left: 5px;

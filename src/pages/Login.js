@@ -11,8 +11,8 @@ const Login = () => {
 
                 <div className="login-btn">Login</div>
                 <div className="new-sign">
-                <p className="text">Are you a new member?</p>
-                <NavLink className="signlink" to= "/signup">Sign up</NavLink>
+                <p className="text-1">Are you a new member?</p>
+                <NavLink className="signlink" to="/signup">Sign up</NavLink>
                 </div>
             
             </div>
