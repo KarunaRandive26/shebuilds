@@ -2,13 +2,11 @@ import React from "react";
 const SetBuis = () => {
     return (
       <>
-      
         <div className="buis setup">
            <div className="create-icon mx-auto"><img className="buis-icon" src="../images/mybuis.png"></img></div>
            <div className="cr-line">Business Name</div>
         </div>
-      </>
-    
+      </>    
     );
   };
 

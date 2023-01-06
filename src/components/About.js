@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div className="service">
                 {AboutData.map((val, ind) => {
-                    return <AboutCard key={ind} imgsrc={val.imgsrc} title={val.title} target={val.target} />
+                    return <AboutCard key={ind} imgsrc={val.imgsrc} title={val.title} target={val.target}/>
                 })}
             </div>
         </>

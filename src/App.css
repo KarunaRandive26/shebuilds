@@ -245,8 +245,7 @@
 .profilecard{
   width: 80%;
 }
-.profile-template{
-  
+.profile-template{ 
   padding: 2vw;
   background-color: rgb(236, 236, 236);
 }
@@ -406,4 +405,64 @@ Nav-item.active{
   .Prod-form{
     width: 80%;
   }
+}
+
+/*Product Page*/
+.Product-page{
+  height: 200vh;
+  background-image: url("./images/cool-background.png");
+  background-size: cover;
+}
+.product-line{
+  padding: 25px;
+  color: rgb(12, 22, 141);
+  font-size: 3ex;
+  font-weight:500;
+  text-shadow: 0 3px 4px rgb(170, 170, 170);
+}
+
+.product-card{
+  text-decoration: none;
+  color: rgb(114, 114, 114);
+  font-size:2ex;
+}
+.product-board{
+  padding: 0 2vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+.add-prod-btn{
+  width: fit-content;
+  padding: 10px;
+  background-color: rgb(239, 255, 99);
+  border-radius: 5px;
+  color: black;
+  font-size: 2ex;
+  font-weight: 600;
+}
+
+.prod-setup{
+  height: 35vh;
+  width: 35vh;
+  margin-right:30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 5px 0 rgb(162, 162, 162);
+  border-radius: 4px;
+}
+.Prod-info{
+  padding-top: 24vh;
+  text-align: center;
+}
+.Product-Name, .Product-price{
+  color: white;
+  text-shadow: 0 3px 3px rgb(93, 93, 93);
+}
+.prod-setup:hover{
+  transition: 1s;
+  transform: scale(1.15);
 }
