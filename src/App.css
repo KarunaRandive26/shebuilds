@@ -409,12 +409,14 @@ Nav-item.active{
 
 /*Product Page*/
 .Product-page{
-  height: 200vh;
+  height: 100vh;
   background-image: url("./images/cool-background.png");
   background-size: cover;
 }
 .product-line{
-  padding: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: rgb(12, 22, 141);
   font-size: 3ex;
   font-weight:500;
@@ -427,7 +429,7 @@ Nav-item.active{
   font-size:2ex;
 }
 .product-board{
-  padding: 0 2vw;
+  padding: 0 0.3vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -445,10 +447,8 @@ Nav-item.active{
 
 .prod-setup{
   height: 35vh;
-  width: 35vh;
-  margin-right:30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 20vh;
+  margin: 10px;
   font-weight: 400;
   background-color: #ffffff;
   box-shadow: 3px 3px 5px 0 rgb(162, 162, 162);
@@ -457,12 +457,14 @@ Nav-item.active{
 .Prod-info{
   padding-top: 24vh;
   text-align: center;
+
 }
 .Product-Name, .Product-price{
   color: white;
   text-shadow: 0 3px 3px rgb(93, 93, 93);
+  font-size: 1vw;
 }
 .prod-setup:hover{
   transition: 1s;
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
