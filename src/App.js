@@ -8,6 +8,7 @@ import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import SetForm from './components/SetForm1';
 import Products from './components/Products';
+import ProductForm from './components/Prodform';
 ;
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
            <Route path="/dashboard" element={<Dashboard/>} />
            <Route path="/setbuisness" element={<SetForm/>} />
            <Route path="/products" element={<Products/>} />
+           <Route path="/addproduct" element={<ProductForm/>} />
         </Routes>
         </div>
     </div>

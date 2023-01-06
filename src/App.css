@@ -395,8 +395,9 @@ Nav-item.active{
   margin: 20px auto;
   padding: 40px;
 }
-.sbmt-button{
-  width: 15vw;
+.btn-sbmt{
+  margin: 0 auto;
+  background-color: rgb(155, 208, 255);
 }
 .form-control{
   font-size: 1.5ex;
