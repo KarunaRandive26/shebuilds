@@ -19,6 +19,9 @@ const Dashboard = () => {
               <Nav.Item className="event mx-auto ">
                 <Nav.Link eventKey="second">Business Setup</Nav.Link>
               </Nav.Item>
+              <Nav.Item className="event mx-auto ">
+                <Nav.Link eventKey="second">Products</Nav.Link>
+              </Nav.Item>
             </Nav>
           </Col>
           <Col sm={10} className="col-xs-12">

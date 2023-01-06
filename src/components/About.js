@@ -9,7 +9,6 @@ const About = () => {
                 <h1>Services</h1>
                 <h2>We are providing</h2>
             </div>
-
             <div className="service">
                 {AboutData.map((val, ind) => {
                     return <AboutCard key={ind} imgsrc={val.imgsrc} title={val.title} target={val.target} />

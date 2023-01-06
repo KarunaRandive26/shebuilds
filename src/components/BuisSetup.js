@@ -8,7 +8,7 @@ const BuisSetup = () => {
           <div className="pro-line">My Buisness</div>
           <div className="buis-board">
             <div className="col board-page">
-                <a className="buis-card" href="/"><SetBuis/></a>
+                <a className="buis-card" href="/products"><SetBuis/></a>
                 <a className="buis-card" href="/setbuisness"><NewSetup/></a>
             </div>
           </div>

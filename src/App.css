@@ -386,3 +386,23 @@ Nav-item.active{
     width: 80%;
   }
 }
+
+/*Product Form*/
+.Prod-form{
+  font-size: 1.5ex;
+  background-color: rgb(234, 242, 239);
+  width:40%;
+  margin: 20px auto;
+  padding: 40px;
+}
+.sbmt-button{
+  width: 15vw;
+}
+.form-control{
+  font-size: 1.5ex;
+}
+@media(max-width:950px){
+  .Prod-form{
+    width: 80%;
+  }
+}

@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import SetForm from './components/SetForm1';
+import Products from './components/Products';
 ;
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
            <Route path="/signup" element={<Signup/>} />
            <Route path="/dashboard" element={<Dashboard/>} />
            <Route path="/setbuisness" element={<SetForm/>} />
+           <Route path="/products" element={<Products/>} />
         </Routes>
         </div>
     </div>

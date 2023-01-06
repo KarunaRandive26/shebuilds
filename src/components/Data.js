@@ -1,4 +1,3 @@
-
 const AboutData = [
     {
         imgsrc: "/images/buynsell.jpg",
